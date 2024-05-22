@@ -1,0 +1,130 @@
+.Capture_Button{
+    background-color: #4CAF50; /* Green */
+   border: none;
+   color: white;
+   padding: 15px 32px;
+   text-align: center;
+   text-decoration: none;
+   display: inline;
+   font-size: 16px;
+ }
+
+ @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;   
+    background-color: #fff;
+    overflow-x: hidden;
+}
+
+#nav{
+    height: 10em;
+    position: fixed;
+    top: 0;
+    background-color: #f5f5f5;
+    margin-bottom: 3em;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+#logo{
+    background: url("../Pink_and_Black_Modern_Initials_Logo_Design__1_-removebg-preview.png")  no-repeat;
+    background-size: 10em 100%;   
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+    
+}
+
+#instructions{
+    margin-top: 12em;
+    padding: 4em;
+    background-color: #f5f5f5;
+    width: 80%;
+    margin-left: 3em;
+    margin-right: 3em;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    padding-bottom: 6em;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+   align-items:center;
+   overflow-x: hidden;
+}
+li{
+    margin-bottom: 1em;
+    /* display: inline; */
+}
+h4{
+    display: inline;
+}
+#next-step{
+    height: 5em;
+    width: 9em;
+    background-color: transparent;
+    margin-top: 3em;
+    color: #04AA6D;
+    border: none;
+    font-size: 1.5em;
+}
+
+span{
+    color: #246dac;
+}
+
+hr{
+    color: aqua;
+    width: 40%;
+
+}
+
+.slidecontainer {
+    width: 100%;
+  }
+  
+ 
+  .slider:hover {
+    opacity: 1;
+  }
+  
+  .slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: #04AA6D;
+    cursor: pointer;
+  }
+  
+  .slider::-moz-range-thumb {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: #04AA6D;
+    cursor: pointer;
+  }
+
+  @media  (max-width : 900px){
+  
+    #instructions{
+       width: 70%;
+    }
+   }
+
+  @media  (max-width : 607px){
+    #instructions{
+        width: 60%;
+     }
+}
+
+@media  (max-width : 455px){
+    #instructions{
+        width: 80%;
+        margin-left: 0;
+        margin-right: 0;
+     }
+}
